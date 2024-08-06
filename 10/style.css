@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: white;
+}
+.hide{
+opacity: 0;
+}
+img{
+    width: 50%;
+}
+.task-3{
+    max-width: 250px;
+    min-height: 250px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+}
+.task-10{
+    min-width: 50%;
+    min-height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+.button{
+    display: block;
+    height: 25px;
+    width: 25px;
+    border: 1px solid teal;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+    background-color: blanchedalmond;
+    color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.task-10{
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    height: 25px;
+    width: 25px;
+    border: 1px solid teal;
+    background-color: teal;
+    margin-inline: 20px;
+    margin-top: 10px;
+
+}
